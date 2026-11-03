@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#fff5f7">
+  <meta name="description" content="Un petit album numérique pour Mara, rempli de souvenirs, de blagues et de complicité.">
+  <title>Mara & moi — Notre petit coin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20261103-rose-petals">
+</head>
+<body>
+  <div class="scene-glow" aria-hidden="true"></div>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+  <div class="petal-field" aria-hidden="true">
+    <span style="--left:7%;--duration:24s;--delay:-18s;--drift:38px;--drift-end:-17px;--size:11px"></span>
+    <span style="--left:19%;--duration:29s;--delay:-9s;--drift:-46px;--drift-end:20px;--size:9px"></span>
+    <span style="--left:31%;--duration:26s;--delay:-22s;--drift:29px;--drift-end:-35px;--size:12px"></span>
+    <span style="--left:45%;--duration:31s;--delay:-13s;--drift:-35px;--drift-end:26px;--size:10px"></span>
+    <span style="--left:59%;--duration:25s;--delay:-5s;--drift:47px;--drift-end:-24px;--size:8px"></span>
+    <span style="--left:72%;--duration:30s;--delay:-20s;--drift:-27px;--drift-end:42px;--size:12px"></span>
+    <span style="--left:84%;--duration:27s;--delay:-11s;--drift:33px;--drift-end:-31px;--size:10px"></span>
+    <span style="--left:95%;--duration:32s;--delay:-25s;--drift:-42px;--drift-end:18px;--size:9px"></span>
+  </div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Mara et moi, accueil">
+      <span class="brand-label">NOTRE PETIT COIN</span>
+    </a>
+  </header>
+
+  <main id="app" aria-live="polite"></main>
+
+  <footer class="footer"><span>© <span id="year"></span> MARA & MOI</span><span id="footerNote">UN ALBUM RIEN QU’À NOUS</span></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="config.js?v=20261103-profile-image"></script>
+  <script src="app.js?v=20261103-profile-image"></script>
+</body>
+</html>
