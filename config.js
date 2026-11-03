@@ -74,8 +74,7 @@ window.MISSION_CONFIG = {
   },
   aboutMara: {
     images: [
-      "media/photos/souvenir-mara-2026.jpeg",
-      "media/photos/petit-mot-photo-2.jpeg"
+      "media/photos/souvenir-mara-2026.jpeg"
     ],
     paragraphs: [
       "À toi, Mara… ❤️",
