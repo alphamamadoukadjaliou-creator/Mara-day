@@ -42,7 +42,7 @@ html{background:#fcf5f7}body{background:radial-gradient(ellipse at 14% 19%,rgba(
 .about-mara-photos{display:flex;flex-direction:column;gap:16px;min-width:0}
 .about-mara-photo{display:block;width:100%;height:auto;max-height:650px;object-fit:contain;object-position:center;border:1px solid rgba(177,133,172,.27);border-radius:10px;box-shadow:0 14px 38px rgba(112,78,130,.14)}
 .about-mara-layout .intro-copy{max-width:none}
-@media(max-width:700px){.about-mara-layout{grid-template-columns:minmax(0,1fr);gap:18px}.about-mara-photos{width:min(100%,440px);margin:0 auto;gap:13px}.about-mara-photo{max-height:none}.about-mara-layout .intro-copy{max-width:690px}}
+@media(max-width:700px){.about-mara-layout{grid-template-columns:minmax(0,.78fr) minmax(0,1.22fr);align-items:start;gap:12px}.about-mara-photos{width:100%;margin:0;gap:12px}.about-mara-photo{width:100%;max-height:none;object-fit:cover;border-radius:7px}.about-mara-layout .intro-copy{max-width:none;min-width:0}.about-mara-layout .intro-paragraph{font-size:clamp(10px,3.1vw,12px);line-height:1.65;margin-bottom:11px}.about-mara-layout .intro-paragraph:first-child{font-size:clamp(11px,3.4vw,13px)}}
 .memories-short-intro .memories-profile-summary{max-width:700px;margin:19px auto 0;padding-top:16px;border-top:1px solid rgba(177,133,172,.2);color:#75677a;font:400 13px/1.8 var(--sans);text-align:left}
 .about-mara-layout.photos-only{grid-template-columns:minmax(0,1fr);justify-items:center}
 .about-mara-layout.photos-only .about-mara-photos{width:min(100%,620px)}
